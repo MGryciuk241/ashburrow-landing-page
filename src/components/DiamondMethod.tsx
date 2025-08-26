@@ -1,6 +1,6 @@
 import React from 'react';
 import { Brain, Eye, MessageCircle, BookOpen, Lightbulb, Zap } from 'lucide-react';
-import InteractiveDiamond3D from './InteractiveDiamond3D';
+import InteractiveDiamond from './InteractiveDiamond';
 
 const DiamondMethod: React.FC = () => {
   const pathways = [
@@ -64,12 +64,12 @@ const DiamondMethod: React.FC = () => {
         <div className="relative mb-20">
           <div className="flex justify-center mb-12">
             <div className="max-w-5xl w-full px-4">
-              <InteractiveDiamond3D 
-                pathways={pathways}
-              />
+                             <InteractiveDiamond 
+                 modalities={pathways.map(pathway => pathway.title)}
+               />
               <div className="text-center mt-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Diamond Extraction Method™</h3>
-                <p className="text-gray-600">Interactive Hexagonal Diamond - Each face represents one learning pathway</p>
+                                 <p className="text-gray-600">Six Interconnected Learning Pathways</p>
               </div>
             </div>
           </div>

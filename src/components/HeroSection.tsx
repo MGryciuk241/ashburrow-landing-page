@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Science-backed methodology bubble */}
           <div className="inline-block bg-blue-100 text-blue-800 hover:bg-blue-100 px-3 py-1.5 rounded-full text-sm font-medium mb-6">
-            🧠 Science-Backed Learning System
+            🧠 Science-Backed Learning System!
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
